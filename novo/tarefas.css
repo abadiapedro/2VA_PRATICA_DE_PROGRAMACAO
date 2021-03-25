@@ -1,0 +1,130 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 62, 170);
+}
+
+div.corpo {
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #777;
+
+}
+
+.erro {
+    color: #F44;
+}
+
+fieldset {
+    border: 3px double #333;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+fieldset input[type=text],input[type=number],
+textarea {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    float: right;
+    margin: 0px 6px ;
+    /*clear: both;*/
+}
+
+input[type=button] {
+    float: right;
+    margin: 0px 6px;
+    /*clear: both;*/
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #EDEDED;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(12, 62, 170);
+    
+}
+
+table td {
+    border-bottom: 1px solid #333;
+    color: rgb(12, 62, 170);
+    padding: 5px;
+    background-color: #EDEDED;
+    font-size: small;
+}
+
+
+table td a{
+    text-decoration: none;
+    color: rgb(12, 62, 170);
+    border: solid 1px ;
+    border-radius: 3px;
+    padding: 0px 0px 1px 0px;
+}
+
+div.pesquisa {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+div.menu {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    text-align: left;
+}
+
+div.menu ul li {
+    display: inline;
+}
+
+div.menu ul li a {
+    padding: 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: rgb(12, 62, 170);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+
+}
+
+div.menu ul li a:hover {
+    transition: 0.7s;
+    background-color:#616161;
+    color: #a8d4fd;
+    border-bottom:3px solid rgb(12, 62, 170);
+}
